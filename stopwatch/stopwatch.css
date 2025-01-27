@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("./bg-masthead.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+.stopwatch-container {
+    text-align: center;
+    color: #e8e8e8d8;
+}
+
+h1 {
+    color: #ffffff73;
+    font-size: 60px;
+    margin-bottom: 60px;
+}
+
+.time-display {
+    font-size: 90px;
+    margin: 20px 0;
+}
+
+.buttons button {
+    text-decoration: none;
+    font-size: 1.25rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 50px;
+    background-color: #1f2628;
+    color: #ffffff;
+    border: none;
+    transition: background-color 0.3s ease-in-out; 
+}
+
+.buttons button:hover {
+    background-color: #646464;
+}
