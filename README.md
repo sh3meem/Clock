@@ -1,69 +1,64 @@
-⏰ Clock Web Application
+# ⏰ Clock Web Application
 
 A sleek and responsive web-based clock application with real-time and stopwatch functionalities.
 
-🌟 Features
+ Interface
 
-✅ Real-Time Clock – Displays the current time, updating every second.✅ Stopwatch – Start, stop, and reset a stopwatch timer.✅ Minimalist UI – Clean, responsive design for easy usability.✅ Smooth Animations – Subtle transitions enhance user experience.
+![image](https://github.com/user-attachments/assets/b7359a21-3710-41a8-a3f5-bee97a20f69f)
 
-📂 Project Structure
 
+## Description
+
+This project is a simple web application that provides a Real-Time Clock and a Stopwatch. The Real-Time Clock displays the current time and updates every second, while the Stopwatch allows users to start, stop, and reset the timer. Both features are accessible through a minimalistic interface.
+
+## 🌟 Features
+
+- **Real-Time Clock**: Displays the current time in `HH:MM:SS AM/PM` format and updates every second.
+- **Stopwatch**: Provides functionality to start, stop, and reset the timer in `HH:MM:SS` format.
+
+
+## 🛠️ Technologies Used
+
+| **Technology** | **Purpose**                                    |
+|----------------|------------------------------------------------|
+| HTML5          | Structure of the application                   |
+| CSS3           | Styling for the application interface          |
+| JavaScript     | Dynamic behavior for clock & stopwatch         |
+
+## 📂 Project Structure
+
+## 📂 Project Structure
+
+```plaintext
 clock-app/
-│── index.html         # Main landing page
-│── style.css          # Main styles
-│
+├── index.html         # Main landing page
+├── style.css          # Main styles
 ├── clock/
 │   ├── clock.html     # Clock feature
 │   ├── clock.css      # Clock styles
-│   ├── clock.js       # JavaScript logic
-│
+│   └── clock.js       # JavaScript logic
 ├── stopwatch/
 │   ├── stopwatch.html # Stopwatch feature
 │   ├── stopwatch.css  # Stopwatch styles
-│   ├── stopwatch.js   # JavaScript logic
-│
+│   └── stopwatch.js   # JavaScript logic
 └── img/               # Images and icons
 
-🚀 How to Use
+```
 
-git clone https://github.com/yourusername/clock-app.git
-cd clock-app
 
-1️⃣ Open index.html in a web browser.2️⃣ Click Real Time for the clock feature.3️⃣ Click Stopwatch to start a stopwatch timer.
 
-🛠️ Technologies Used
 
-Technology
+## 🔗 Live Demo
+🎯 Click here to view the live demo (https://sh3meem.github.io/Clock/)
 
-Purpose
+## 👨‍💻 Author
 
-HTML5
+**Mohammed Shameem Karuvara Kunnath**  
+[GitHub](https://github.com/sh3meem) | [LinkedIn](https://www.linkedin.com/in/mohammed-shameem-24b66029b/)
 
-Structure of the application
+## 🚀 Happy Coding!
 
-CSS3
 
-Styling and layout
 
-JavaScript
 
-Dynamic behavior for clock & stopwatch
-
-🔗 Live Demo
-
-🎯 Click here to view the live demo (Replace with actual link)
-
-📜 License
-
-This project is open-source and available under the MIT License.
-
-🤝 Contributing
-
-✔️ Fork the repository.✔️ Create a new branch (git checkout -b feature-branch).✔️ Commit your changes (git commit -m "Added a new feature").✔️ Push to the branch (git push origin feature-branch).✔️ Open a Pull Request.
-
-👨‍💻 Author
-
-Your Name🔗 GitHub🔗 LinkedIn
-
-🚀 Happy Coding!
 
